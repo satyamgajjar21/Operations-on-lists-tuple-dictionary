@@ -1,0 +1,11 @@
+Dict = { "satyam":20, "shivam" : 22, "manoj":24}
+print("Before removal : " + str(Dict))
+
+#del function
+del Dict["manoj"]
+
+print("After removal : " + str(Dict))
+
+#output
+#Before removal : {'satyam': 20, 'shivam': 22, 'manoj': 24}
+#After removal : {'satyam': 20, 'shivam': 22}
