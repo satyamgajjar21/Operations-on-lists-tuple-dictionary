@@ -1,0 +1,11 @@
+#list
+mylist = [5,6,7,4,3]
+
+print("list is : " + str(mylist))
+
+mylist.extend(range(6))
+print("List after adding range: " + str(mylist))
+
+#output
+#list is : [5, 6, 7, 4, 3]
+#List after adding range: [5, 6, 7, 4, 3, 0, 1, 2, 3, 4, 5]
